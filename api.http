@@ -2,6 +2,6 @@ POST http://localhost:3333/subscriptions
 Content-Type: application/json
 
 {
-    "name": "Wallace Wesley",
-    "email": "wallace@test.com.br"
+  "name": "Wallace Wesley",
+  "email": "wallace@test.com.br"
 }
