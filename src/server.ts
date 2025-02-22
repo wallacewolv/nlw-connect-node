@@ -20,8 +20,14 @@ app.post('/subscriptions', {
             name: z.string(),
             email: z.string().email(),
         }),
+        response: {
+            201: z.object({
+                name: z.string(),
+                email: z.string(),
+            })
+        }
     },
-}, (request, reply) => {
+}, async (request, reply) => {
     const { name, email } = request.body;
 
     // criação na inscrição no banco de dados
