@@ -4,9 +4,9 @@ POST http://localhost:3333/subscriptions
 Content-Type: application/json
 
 {
-  "name": "Usuario indicado 2",
-  "email": "usuario.indicado2@test.com.br",
-  "referrer": "651d3b29-03d9-414c-b6d4-c35ea89406cd"
+  "name": "Usuario indicado 4",
+  "email": "usuario.indicado4@test.com.br",
+  "referrer": "0d54204a-727c-4042-888f-22cb6844bc8f"
 }
 
 ### Link para invite a partir do ID do usuario
@@ -24,3 +24,6 @@ GET http://localhost:3333/subscribers/651d3b29-03d9-414c-b6d4-c35ea89406cd/ranki
 ### Posição do usuário no ranking a partir do ID
 
 GET http://localhost:3333/subscribers/651d3b29-03d9-414c-b6d4-c35ea89406cd/ranking/position
+
+### Obtendo ranking de forma decrescente
+GET http://localhost:3333/ranking
