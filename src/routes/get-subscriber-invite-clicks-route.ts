@@ -4,7 +4,7 @@ import { getSubscriberInviteClicks } from '../functions/get-subscriber-invite-cl
 
 import type { FastifyPluginAsyncZod } from 'fastify-type-provider-zod'
 
-export const GetSubscriberInviteClicksRoutes: FastifyPluginAsyncZod =
+export const getSubscriberInviteClicksRoute: FastifyPluginAsyncZod =
   async app => {
     app.get(
       '/subscribers/:subscriberId/ranking/clicks',

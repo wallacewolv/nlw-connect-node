@@ -5,7 +5,7 @@ import { accessInviteLink } from '../functions/access-invite-link'
 
 import type { FastifyPluginAsyncZod } from 'fastify-type-provider-zod'
 
-export const AccessInviteLinkRoutes: FastifyPluginAsyncZod = async app => {
+export const accessInviteLinkRoute: FastifyPluginAsyncZod = async app => {
   app.get(
     '/invite/:subscriberId',
     {

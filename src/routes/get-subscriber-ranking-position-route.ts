@@ -4,7 +4,7 @@ import { getSubscriberRankingPosition } from '../functions/get-subscriber-rankin
 
 import type { FastifyPluginAsyncZod } from 'fastify-type-provider-zod'
 
-export const GetSubscriberRankingPositionRoutes: FastifyPluginAsyncZod =
+export const getSubscriberRankingPositionRoute: FastifyPluginAsyncZod =
   async app => {
     app.get(
       '/subscribers/:subscriberId/ranking/position',
