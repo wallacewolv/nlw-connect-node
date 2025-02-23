@@ -9,3 +9,7 @@
 # Redis
 - Método para listar tudo o que foi inserido no banco com a chave referral:access-count
   - await redis.hgetall('referral:access-count')
+
+# Node
+- Comando para rodar o projeto que ja foi feito o build e esta saldo na pasta dist
+  - node --env-file .env dist/server.mjs
