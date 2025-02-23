@@ -1,3 +1,5 @@
+### Cadastro de usuario, com ou sem indicação
+
 POST http://localhost:3333/subscriptions
 Content-Type: application/json
 
@@ -7,14 +9,14 @@ Content-Type: application/json
   "referrer": "651d3b29-03d9-414c-b6d4-c35ea89406cd"
 }
 
-###
+### Link para invite a partir do ID do usuario
 
 GET http://localhost:3333/invite/651d3b29-03d9-414c-b6d4-c35ea89406cd
 
-###
+### Ranking de clicks a partir do ID do usuario
 
 GET http://localhost:3333/subscribers/651d3b29-03d9-414c-b6d4-c35ea89406cd/ranking/clicks
 
-###
+### Ranking de indicações a partir do ID do usuario que indicou
 
 GET http://localhost:3333/subscribers/651d3b29-03d9-414c-b6d4-c35ea89406cd/ranking/count
