@@ -1,6 +1,6 @@
 import z from 'zod'
 
-import { getSubscriberInviteClicks } from '../drizzle/functions/get-subscriber-invite-clicks'
+import { getSubscriberInviteClicks } from '../functions/get-subscriber-invite-clicks'
 
 import type { FastifyPluginAsyncZod } from 'fastify-type-provider-zod'
 

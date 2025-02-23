@@ -1,8 +1,8 @@
 import { eq } from 'drizzle-orm'
 
-import { redis } from '../../redis/client'
-import { db } from '../client'
-import { subscriptions } from '../schema/subscriptions'
+import { db } from '../drizzle/client'
+import { subscriptions } from '../drizzle/schema/subscriptions'
+import { redis } from '../redis/client'
 
 interface SubscribeToEventParams {
   name: string

@@ -1,7 +1,7 @@
 import z from 'zod'
 
-import { accessInviteLink } from '../drizzle/functions/access-invite-link'
 import { env } from '../env'
+import { accessInviteLink } from '../functions/access-invite-link'
 
 import type { FastifyPluginAsyncZod } from 'fastify-type-provider-zod'
 

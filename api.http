@@ -2,8 +2,8 @@ POST http://localhost:3333/subscriptions
 Content-Type: application/json
 
 {
-  "name": "Usuario indicado",
-  "email": "usuario.indicado@test.com.br",
+  "name": "Usuario indicado 2",
+  "email": "usuario.indicado2@test.com.br",
   "referrer": "651d3b29-03d9-414c-b6d4-c35ea89406cd"
 }
 

@@ -1,6 +1,6 @@
 import z from 'zod'
 
-import { getSubscriberInviteCount } from '../drizzle/functions/get-subscriber-invites-count'
+import { getSubscriberInviteCount } from '../functions/get-subscriber-invites-count'
 
 import type { FastifyPluginAsyncZod } from 'fastify-type-provider-zod'
 

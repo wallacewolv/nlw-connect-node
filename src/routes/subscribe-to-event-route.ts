@@ -1,6 +1,6 @@
 import z from 'zod'
 
-import { subscribeToEvent } from '../drizzle/functions/subscribe-to-event'
+import { subscribeToEvent } from '../functions/subscribe-to-event'
 
 import type { FastifyPluginAsyncZod } from 'fastify-type-provider-zod'
 
