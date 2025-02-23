@@ -20,3 +20,7 @@ GET http://localhost:3333/subscribers/651d3b29-03d9-414c-b6d4-c35ea89406cd/ranki
 ### Ranking de indicações a partir do ID do usuario que indicou
 
 GET http://localhost:3333/subscribers/651d3b29-03d9-414c-b6d4-c35ea89406cd/ranking/count
+
+### Posição do usuário no ranking a partir do ID
+
+GET http://localhost:3333/subscribers/651d3b29-03d9-414c-b6d4-c35ea89406cd/ranking/position
